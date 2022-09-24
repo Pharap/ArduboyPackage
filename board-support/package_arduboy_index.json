@@ -1,31 +1,37 @@
 {
-  "packages": [
+  "packages":
+  [
     {
       "name": "arduboy",
       "maintainer": "Arduboy Team",
       "websiteURL": "https://www.arduboy.com/",
       "email": "contact@arduboy.com",
-      "help": {
+      "help":
+      {
         "online": "http://community.arduboy.com/"
       },
-      "platforms": [
+      "platforms":
+      [
         {
           "name": "Arduboy",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "help": {
+          "help":
+          {
             "online": "http://community.arduboy.com/"
           },
-          "url": "https://arduboy.github.io/board-support/arduboy-1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/Pharap/ArduboyPackage/master/board-support/arduboy-1.0.0.tar.bz2",
           "archiveFileName": "arduboy-1.0.0.tar.bz2",
           "checksum": "SHA-256:06ae1ba0edb5da00678950e267c08e71c8bd58d040012765fda0489e2c93fc9d",
           "size": "736",
-          "boards": [
+          "boards":
+          [
             {"name": "Arduboy"},
             {"name": "Arduboy DevKit"}
           ],
-          "toolsDependencies": [
+          "toolsDependencies":
+          [
             {
               "packager": "arduino",
               "name": "avr-gcc",
